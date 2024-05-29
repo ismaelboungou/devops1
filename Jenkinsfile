@@ -7,7 +7,7 @@ pipeline{
 }}
 stage('Test'){
 	steps{
-	sh 'bash test.sh'
+	sh 'bash first.txt'
 }}
 	stage('Deploy'){
 		steps{
